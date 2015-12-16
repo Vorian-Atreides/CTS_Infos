@@ -1,0 +1,5 @@
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\Tools\bin\Debug\Tools.dll
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\Tools\bin\Debug\Tools.pdb
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\Tools\obj\Debug\Tools.csprojResolveAssemblyReference.cache
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\Tools\obj\Debug\Tools.dll
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\Tools\obj\Debug\Tools.pdb

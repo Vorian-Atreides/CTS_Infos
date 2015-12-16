@@ -1,0 +1,12 @@
+App.xaml
+Common\StandardStyles.xaml
+Graphical\Views\ConfigurationView.xaml
+Graphical\Views\DeviationView.xaml
+Graphical\Views\MainPage.xaml
+Graphical\Views\ScheduleStationView.xaml
+Graphical\Views\StationView.xaml
+Graphical\Views\VelhopView.xaml
+Graphical\Assets\Logo.png
+Graphical\Assets\SmallLogo.png
+Graphical\Assets\SplashScreen.png
+Graphical\Assets\StoreLogo.png

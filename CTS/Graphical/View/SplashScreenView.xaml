@@ -1,0 +1,75 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="SiffertGaston.CTSInfos.Client.WindowsPhone.Ads.Graphical.View.SplashScreenView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False"
+    xmlns:converter="clr-namespace:SiffertGaston.CTSInfos.Client.WindowsPhone.Ads.Graphical.View.Converter"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    DataContext="{Binding SplashScreenViewModel, Source={StaticResource Locator}}">
+
+    <phone:PhoneApplicationPage.Resources>
+
+        <converter:BoolToVisibility x:Key="BoolToVisibility"/>
+
+    </phone:PhoneApplicationPage.Resources>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid Style="{StaticResource Background}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0"
+                   VerticalAlignment="Center" HorizontalAlignment="Center"
+                   FontSize="40" FontWeight="SemiBold"
+                   Text="CTS Infos"/>
+
+        <StackPanel Grid.Row="1"
+                    Orientation="Vertical">
+            <ProgressBar Foreground="White"
+                         IsIndeterminate="{Binding Loaded}"
+                         Visibility="{Binding Loaded, Converter={StaticResource BoolToVisibility}}"/>
+            
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"
+                       FontSize="18"
+                       Text="Chargement"/>
+        </StackPanel>
+
+        <Image Grid.Row="2"
+               Width="250"
+               Source="/Graphical/Assets/tram.png"/>
+    </Grid>
+
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardIn" />
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardIn" />
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardOut" />
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardOut" />
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+
+</phone:PhoneApplicationPage>

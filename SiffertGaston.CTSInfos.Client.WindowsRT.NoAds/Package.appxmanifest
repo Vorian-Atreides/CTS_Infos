@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="418e338a-3c89-4cfa-83c8-3fcc255efc62" Publisher="CN=Gaston" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>SiffertGaston.CTSInfos.Client.WindowsRT.NoAds</DisplayName>
+    <PublisherDisplayName>Gaston</PublisherDisplayName>
+    <Logo>Graphical\Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="SiffertGaston.CTSInfos.Client.WindowsRT.NoAds.App">
+      <VisualElements DisplayName="CTS Infos NoAds" Logo="Graphical\Assets\Logo.png" SmallLogo="Graphical\Assets\SmallLogo.png" Description="SiffertGaston.CTSInfos.Client.WindowsRT.NoAds" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Graphical\Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

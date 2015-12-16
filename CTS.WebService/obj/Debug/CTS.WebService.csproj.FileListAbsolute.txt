@@ -1,0 +1,13 @@
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\bin\Debug\CTS.WebService.dll.config
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\bin\Debug\CTS.WebService.dll
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\bin\Debug\CTS.WebService.pdb
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\bin\Debug\System.Net.Http.dll
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\bin\Debug\System.Net.Http.xml
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\obj\Debug\CTS.WebService.csproj.App.config
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\obj\Debug\CTS.WebService.csprojResolveAssemblyReference.cache
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\obj\Debug\CTS.WebService.dll
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\obj\Debug\CTS.WebService.pdb

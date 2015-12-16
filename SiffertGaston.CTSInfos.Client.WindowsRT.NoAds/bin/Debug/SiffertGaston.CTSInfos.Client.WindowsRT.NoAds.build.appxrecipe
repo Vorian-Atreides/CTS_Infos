@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SIFFER_G</Machine>
+    <WindowsUser>Gaston</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\bin\Debug\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds.exe">
+      <PackagePath>SiffertGaston.CTSInfos.Client.WindowsRT.NoAds.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\bin\Debug\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds.pdb">
+      <PackagePath>SiffertGaston.CTSInfos.Client.WindowsRT.NoAds.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\bin\Debug\CTS.WebService.dll">
+      <PackagePath>CTS.WebService.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\Tools\bin\Debug\Tools.dll">
+      <PackagePath>Tools.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\bin\Debug\CTS.WebService.pdb">
+      <PackagePath>CTS.WebService.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\Tools\bin\Debug\Tools.pdb">
+      <PackagePath>Tools.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\Graphical\Assets\Logo.png">
+      <PackagePath>Graphical\Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\Graphical\Assets\SmallLogo.png">
+      <PackagePath>Graphical\Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\Graphical\Assets\SplashScreen.png">
+      <PackagePath>Graphical\Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\Graphical\Assets\StoreLogo.png">
+      <PackagePath>Graphical\Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\bin\Debug\Graphical\Views\ConfigurationView.xaml">
+      <PackagePath>Graphical\Views\ConfigurationView.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\bin\Debug\Graphical\Views\DeviationView.xaml">
+      <PackagePath>Graphical\Views\DeviationView.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\bin\Debug\Graphical\Views\MainPage.xaml">
+      <PackagePath>Graphical\Views\MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\bin\Debug\Graphical\Views\ScheduleStationView.xaml">
+      <PackagePath>Graphical\Views\ScheduleStationView.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\bin\Debug\Graphical\Views\StationView.xaml">
+      <PackagePath>Graphical\Views\StationView.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\bin\Debug\Graphical\Views\VelhopView.xaml">
+      <PackagePath>Graphical\Views\VelhopView.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

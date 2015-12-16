@@ -1,0 +1,13 @@
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\bin\Release\CTS.WebService.dll.config
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\bin\Release\CTS.WebService.dll
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\bin\Release\CTS.WebService.pdb
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\bin\Release\System.Net.Http.dll
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\bin\Release\System.Net.Http.Extensions.dll
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\bin\Release\System.Net.Http.Primitives.dll
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\bin\Release\System.Net.Http.xml
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\bin\Release\System.Net.Http.Extensions.xml
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\bin\Release\System.Net.Http.Primitives.xml
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\obj\Release\SiffertGaston.CTSInfos.WebService.csproj.App.config
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\obj\Release\SiffertGaston.CTSInfos.WebService.csprojResolveAssemblyReference.cache
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\obj\Release\CTS.WebService.dll
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\CTS.WebService\obj\Release\CTS.WebService.pdb

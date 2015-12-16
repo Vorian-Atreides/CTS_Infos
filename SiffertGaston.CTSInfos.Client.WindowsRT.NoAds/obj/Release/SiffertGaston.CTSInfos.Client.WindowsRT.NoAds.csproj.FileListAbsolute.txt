@@ -1,0 +1,10 @@
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\obj\Release\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds.csprojResolveAssemblyReference.cache
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\obj\Release\App.g.i.cs
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\obj\Release\App.g.cs
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\obj\Release\Common\StandardStyles.g.i.cs
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\obj\Release\Common\StandardStyles.g.cs
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\obj\Release\Graphical\Views\MainPage.g.i.cs
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\obj\Release\Graphical\Views\MainPage.g.cs
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\obj\Release\XamlTypeInfo.g.cs
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\obj\Release\App.xaml
+C:\Users\Gaston\Documents\Visual Studio 2012\Projects\CTS2\CTS\SiffertGaston.CTSInfos.Client.WindowsRT.NoAds\obj\Release\Common\StandardStyles.xaml

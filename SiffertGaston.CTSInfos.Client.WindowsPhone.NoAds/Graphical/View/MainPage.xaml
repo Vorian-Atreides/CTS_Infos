@@ -1,0 +1,148 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="SiffertGaston.CTSInfos.Client.WindowsPhone.NoAds.Graphical.View.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="False"
+    DataContext="{Binding MainViewModel, Source={StaticResource Locator}}"
+    xmlns:interactivity="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+    xmlns:cimbalino="clr-namespace:Cimbalino.Phone.Toolkit.Behaviors;assembly=Cimbalino.Phone.Toolkit"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:view="clr-namespace:SiffertGaston.CTSInfos.Client.WindowsPhone.NoAds.Graphical.View"
+    xmlns:converter="clr-namespace:SiffertGaston.CTSInfos.Client.WindowsPhone.NoAds.Graphical.View.Converter"
+    xmlns:primitive="clr-namespace:Microsoft.Phone.Controls.Primitives;assembly=Microsoft.Phone">
+
+    <phone:PhoneApplicationPage.Resources>
+        
+        <converter:BoolToVisibility x:Key="BoolToVisibility"/>                
+        
+    </phone:PhoneApplicationPage.Resources>
+    
+    
+    <Grid Style="{StaticResource Background}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Rectangle Grid.Row="0"
+                   Fill="#084F41"/>
+        <Image Grid.Row="0"
+               HorizontalAlignment="Right"
+               Source="/Graphical/Assets/tram.png"/>
+        
+        <TextBlock Grid.Row="0"
+                   HorizontalAlignment="Left" VerticalAlignment="Center"
+                   Margin="20, 0, 0, 0"
+                   FontSize="55" Foreground="White"
+                   Text="{Binding SelectedItem.Tag, ElementName=pivot}"/>
+        
+        <phone:Pivot Grid.Row="1"
+                     Style="{StaticResource PivotWithoutHeader}"
+                     SelectedIndex="0"
+                     Name="pivot">
+            <phone:PivotItem Tag="Station">
+                <view:StationView />
+            </phone:PivotItem>
+            
+            <phone:PivotItem Tag="Vélhop">
+                <view:VelhopView />
+            </phone:PivotItem>
+            
+            <phone:PivotItem Tag="Déviation">
+                <view:DeviationView />
+            </phone:PivotItem>
+            
+            <phone:PivotItem Tag="Cartes">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    
+                    <StackPanel Grid.Row="0"
+                                VerticalAlignment="Center"
+                                Orientation="Vertical">
+                        <TextBlock HorizontalAlignment="Center"
+                                   Text="Réseau tram"/>
+                        <Button Command="{Binding NavigateToImage}"
+                                CommandParameter="/Graphical/Pictures/tram.png">
+                            <Button.Template>
+                                <ControlTemplate>
+                                    <Image Source="/Graphical/Pictures/tram_250.png"
+                                           Height="250"/>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+                    </StackPanel>
+                    
+                    <StackPanel Grid.Row="1"
+                                VerticalAlignment="Center"
+                                Orientation="Vertical">
+                        <TextBlock HorizontalAlignment="Center"
+                                   Text="Réseaux tram et bus"/>
+                        <Button Command="{Binding NavigateToImage}"
+                                CommandParameter="/Graphical/Pictures/tram_bus.png">
+                            <Button.Template>
+                                <ControlTemplate>
+                                    <Image Source="/Graphical/Pictures/tram_bus_250.png"
+                                           Height="250"/>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+                    </StackPanel>
+                    
+                </Grid>
+            </phone:PivotItem>
+                        
+        </phone:Pivot>
+        
+        <interactivity:Interaction.Behaviors>
+            <cimbalino:ApplicationBarBehavior BackgroundColor="#084F41"
+                                              ForegroundColor="White">
+
+                <cimbalino:ApplicationBarIconButton
+                    IconUri="/Graphical/Assets/feature.settings.png"
+                    Text="Setting"
+                    Command="{Binding NavigateToConfiguration}"/>
+                
+                <cimbalino:ApplicationBarIconButton
+                    IconUri="/Graphical/Assets/like.png"
+                    Text="Noter"
+                    Command="{Binding RateApplication}"/>
+
+            </cimbalino:ApplicationBarBehavior>
+        </interactivity:Interaction.Behaviors>
+    </Grid>
+
+
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardIn" />
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardIn" />
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardOut" />
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardOut" />
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+
+</phone:PhoneApplicationPage>
